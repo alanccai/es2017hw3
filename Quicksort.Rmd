@@ -12,6 +12,8 @@ Try executing this chunk by clicking the *Run* button within the chunk or by pla
 ```{r}
 ## Quicksort Function
 
+## Source: https://github.com/brianespinoza
+
 quicksort <- function(x){
   if(length(x) <= 1) return(x)
   pivot <- x[1]
